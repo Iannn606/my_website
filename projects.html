@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+
+        <!-- adding css and javascript through external files -->
+        <link rel="stylesheet" href="Navigation.css">
+        <script src="navigationjs.js"></script>
+
+        <!-- adding css internally -->
+        <style>
+        /* styling the overal layout of the webpage */
+        body{
+            border: 2px solid black;
+            background-color: powderblue;
+            padding: 50px;
+            font-family: sans-serif;
+        }
+
+        /* styling the big headings */
+        h1{
+            text-align: center;
+            font-family: serif;
+            font-weight: normal;
+            text-transform: uppercase;
+            border-bottom: 1px solid #57b1dc;
+            margin-top: 30px;
+        }
+        </style>
+
+    </head>
+
+    <body>
+    
+    <!-- importing the library so i can use the hamburger icon for mobile web development -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- creating links for the naviagation tabs -->
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+        <h1>Portfolio</h1>
+
+        <h2>Project 1: Python Platformer</h2>
+        <p> <img src="Platformer.png" alt="Pltfrm" style="width: 40%; height: 40%;"><br>my first major project in coding was a video game i made using python. I used my strong knowledge of python and object oriented programming
+        to create a "platformer" game where a little character jumps around the screen and blocks.</p>
+        
+        <h2>Project 2: Portfolio Website</h2>
+        <p>my second major project is this portfolio that 
+        you are reading. I created this portfolio using a html file and styled it using css and javascript.</p>
+
+        <h2>Languages Learned</h2>
+        <p>I have aquired a good grasp of <em>basic python, C, and html</em> through these projects</p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <ol>
+                <li>basic python from <em>datatypes to lists of dictionaries</em></li>
+                <li>object oriented program in python</li>
+            </ol>
+            <li>html</li>
+            <ol>
+                <li>understanding of the internet, web, browser, and browser URLs</li>
+                <li>knowledge of important elements</li>
+                <li>images, image maps, links</li>
+                <li>understanding of id and class attributes</li>
+            </ol>
+        </ul>
+        
+
+    </body>
+
+</html>

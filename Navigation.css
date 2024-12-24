@@ -1,0 +1,41 @@
+
+  /* Style the tab */
+.tab, .Projs {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button, .Projs button {
+    display: flex;
+    justify-content: center;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover, .Projs button:hover {
+    background-color: #C9A9F3;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active, .Projs button.active {
+    border: 1px solid black;
+    background-color: #b0dfefb2;
+    border-color: black;
+  }
+  
+  /* Style the tab content */
+  .tabcontent, .projcontent{
+    display: none;
+    padding: 6px 12px;
+  }
+  
+
+  
